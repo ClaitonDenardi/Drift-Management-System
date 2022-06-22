@@ -1,0 +1,90 @@
+
+@charset "utf-8";
+
+.btn-nav {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.btn-primary {
+    background-color: #e60000;
+    border-color: #e60000;
+}
+.btn-primary:hover {
+    background-color: #000000;
+    border-color: #e60000;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #e60000;
+    border-color: #fff;
+
+}
+
+.corrida-btns {
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+.corrida-btns > button {
+    padding: 5px 10px;
+}
+
+.nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #e60000;
+}
+
+.nav-tabs.nav-justified > .active > a {
+    border: 1px solid #e60000;
+    border-bottom: none;
+}
+
+.nav-tabs.nav-justified > .active > a:hover {
+    border: 1px solid #e60000;
+    border-bottom: none;
+}
+
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    background: none;
+}
+
+.list_corridas p {
+    white-space: no-wrap;
+    overflow: hidden;
+    color: #e60000;
+}
+
+.list_corridas p > label {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.form-group label {
+    color: #ffffff;
+    font-weight: 500;  
+}
+
+.titulo-destaque {
+    color: #000000;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 40px auto 20px auto;
+}
+
+#nova_corrida button {
+    height: 40px;
+    width: 95px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+table.dataTable thead th{
+   background-color: #e60000;   
+   
+}
+
+table.dataTable tbody tr:hover{
+    color: #e60000;
+}
